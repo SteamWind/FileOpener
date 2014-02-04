@@ -91,9 +91,9 @@ public class FileOpener extends CordovaPlugin {
             intent = new Intent(Intent.ACTION_VIEW);
             intent.setDataAndType(uri, "video/*");
         } else if(url.contains(".apk")) {
- +          // Application files
- +          intent = new Intent(Intent.ACTION_VIEW);
- +          intent.setDataAndType(uri, "application/vnd.android.package-archive");
+            // Application files
+            intent = new Intent(Intent.ACTION_VIEW);
+            intent.setDataAndType(uri, "application/vnd.android.package-archive");
         }
                 
         //if you want you can also define the intent type for any other file
