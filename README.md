@@ -5,7 +5,7 @@ Simple plugin which allows you to open popular files (PDF, WORD, EXCEL, JPG, GIF
 
 Adding the Plugin to your project
 -----------
-    $ cordova plugin add https://github.com/don/FileOpener.git
+    $ cordova plugin add https://github.com/SteamWind/FileOpener.git
 
 Using the plugin
 ===========
